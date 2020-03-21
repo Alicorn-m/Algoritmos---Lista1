@@ -1,0 +1,38 @@
+# 1. Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].
+
+num = input('Digite um número:\n')
+print('O número é',num)
+
+# 2. Faça um Programa que peça dois números e imprima a soma.
+
+num1 = float(input('Digite o primeiro número: '))
+num2 = float(input('Digite o segundo número: '))
+soma = num1+num2
+
+print ('A soma é: ', soma)
+
+# 3. Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
+nota1 = float(input('nota 1: '))
+nota2 = float(input('nota 2: '))
+nota3 = float(input('nota 3: '))
+nota4 = float(input('nota 4: '))
+
+media = (nota1+nota2+nota3+nota4)/4
+
+print ('A média é: ', media)
+
+# 4. Faça um Programa que converta metros para centímetros.
+
+m = float(input('Digite o valor do metro: '))
+cm = m*100
+
+print (' {} m corresponde a {} cm'. format (m, cm))
+
+# 5. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+
+r = float(input('Digite o valor do raio: '))
+area = 3.14*(r**2)
+
+print ('A área de um círculo com o raio igual a {} é {}'. format (r, area))
+
